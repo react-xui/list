@@ -18,11 +18,14 @@ export default class List extends Component {
   }
   render () {
     console.log(123)
-    let {children,onSelect} = this.props;
+    let {children,isLoadMore,onSelect} = this.props;
     let {data} = this.state;
     return (
       <div className="x-list">
         {children}
+        {
+          isLoadMore?<div>load</div>
+        }
       </div>
     );
   }
