@@ -1,6 +1,6 @@
 {
   "name": "jsx-list",
-  "version": "0.0.1",
+  "version": "1.0.1",
   "description": "react xui x-list",
   "main": "./lib/index.js",
   "repository": {
@@ -47,7 +47,7 @@
     "less": "^3.8.1",
     "less-loader": "^4.1.0",
     "npm-run-all": "^3.1.2",
-    "react": "^16.0.0",
+    "react": "^16.13.0",
     "react-dom": "^16.0.0",
     "rimraf": "^2.6.1",
     "style-loader": "^0.13.1",

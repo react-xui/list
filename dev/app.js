@@ -1,3 +1,10 @@
+/*
+ * @Descripttion: 
+ * @Author: tianxiangbing
+ * @Date: 2018-11-30 15:11:03
+ * @LastEditTime: 2020-03-12 16:56:51
+ * @github: https://github.com/tianxiangbing
+ */
 import React from 'react';
 import ReactDOM from 'react-dom';
 import List from '../src/index';
@@ -27,6 +34,7 @@ class App extends React.Component {
           <Option>bbb</Option>
           <Option>ccc</Option>
         </List>
+        <List onSelect={e=>console.log(e)} showSearch={true} data={[{text:'aaaaa'},{text:'aabb'},{text:'ccddb'},{text:'demo4'},{text:'demo5'},{text:'demo6'}]}></List>
       </div>
     )
   }
